@@ -9,7 +9,5 @@ get '/secret' do
 end
 
 get '/cat' do
-  "<div style='border: 3px dashed red'>
-  <img src='http://placekitten.com/g/200/300'>
-  </div>"
+  erb(:index)
 end
